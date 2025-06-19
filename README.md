@@ -56,7 +56,7 @@ We have multiple goals with this library:
 // #define FASTLED_OVERCLOCK 1.2 // 20% overclock ~ 960 khz.
 #include <FastLED.h>
 #define NUM_LEDS 60
-#define DATA_PIN 6
+#define DATA_PIN 5
 CRGB leds[NUM_LEDS];
 void setup() { FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS); }
 void loop() {
